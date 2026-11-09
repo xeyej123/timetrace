@@ -1,6 +1,8 @@
 {
     "uuid": "timetrace@timetrace.app",
     "name": "TimeTrace Active Window Reporter",
-    "description": "Reports the focused window's class/title to TimeTrace over D-Bus",
-    "shell-version": ["45", "46", "47", "48", "49", "50"]
+    "description": "Reports focus, idle and lock state to TimeTrace over D-Bus",
+    "shell-version": ["51"],
+    "session-modes": ["user", "unlock-dialog"],
+    "version": 2
 }
